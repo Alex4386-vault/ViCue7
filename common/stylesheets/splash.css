@@ -22,7 +22,40 @@
     font-size: 2em;
     text-align: center;
 }
+.welcome .subtitle {
+    font-weight: 100;
+    font-size: 1em;
+    text-align: center;
+}
+
+.welcome .btn {
+    border: 2px solid white;
+    background-color: rgba(0,0,0,0);
+    border-radius: 10px;
+    padding: .5em .5em .5em .5em;
+}
+
+.welcome .rightaligned {
+    position: absolute;
+    right: 1em;
+}
+
+.signin-wrapper {
+    display: block;
+    position: relative;
+}
+
+.welcome .btn:hover {
+    background-color: #004396;
+    padding: .5em 2em .5em .5em;
+}
 
 .welcome b {
     font-weight: 400;
+}
+
+footer {
+    color: #444;
+    position: absolute;
+    bottom: 0%
 }

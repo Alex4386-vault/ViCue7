@@ -7,16 +7,23 @@ include "common/header.php";
 ?>
 <div class="welcome">
 <div class="title">Welcome to ViCue7</div>
+<div class="subtitle">Your personal cue system for best event experience</div>
 <hr />
 <div class="event"><b>현재 진행 중인 행사 : </b><span id="eventname"><?=$config['name']?></span></div>
+<br>
+<div class="signin-wrapper">
+<a href="login/" class="btn transition rightaligned"><b>로그인</b> &#xE001;</a>
 </div>
-<?php
-$common['postload'] = '
+<br>
+<br>
+</div>
 <script src="'.$config['root'].'/common/scripts/load.js"></script>
 <script>
-console.log("start");
 loadEventToId("eventname");
 </script>
-';
-include "common/footer.php";
-?>
+</article>
+<footer>
+Copyright &copy; YeoidoTech and Alex4386 - This program is distributed under MIT License, <a href="//github.com/Alex4386/ViCue7">GitHub</a>
+</footer>
+</head>
+</html>

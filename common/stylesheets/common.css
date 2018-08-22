@@ -13,3 +13,23 @@ body {
     background: #000;
     color: #FFF;
 }
+
+.btn {
+    display: inline-block;
+    vertical-align: center;
+    color: #FFF;
+    text-decoration: none;
+}
+
+.transition {
+    transition: .3s;
+    transition-property: all;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+
+a {
+    text-decoration: none;
+    color: #004396;
+}
