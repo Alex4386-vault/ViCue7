@@ -5,10 +5,6 @@
   //Enable Debugging Mode.
   ini_set("display_errors",1);
 
-  if (session_status() == PHP_SESSION_NONE) {
-    session_start();
-  }
-
   // Set display name
   $config['name'] = "ViCue7 Test";
   
