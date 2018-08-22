@@ -1,0 +1,15 @@
+/************\
+|   ViCue7   |
+| common.css |
+\************/
+
+/* Copyright (c) Alex4386 */
+
+* {
+    font-family: 'Spoqa', 'NanumBarunGothic', sans-serif;
+}
+
+body {
+    background: #000;
+    color: #FFF;
+}

@@ -1,0 +1,28 @@
+/*
+ *  CSS for Intro Splash
+ */
+
+ body {
+    height: 100%;
+ }
+
+.welcome {
+    background: #111;
+    padding: 1em;
+    font-weight: 100;
+    position: absolute;
+    width: 500px;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+}
+
+.welcome .title {
+    font-weight: 100;
+    font-size: 2em;
+    text-align: center;
+}
+
+.welcome b {
+    font-weight: 400;
+}
